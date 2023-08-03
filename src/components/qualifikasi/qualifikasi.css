@@ -45,12 +45,12 @@
 
 .qualifikasi__data {
   display: grid;
-  grid-template-columns: 1fr max-content 1fr;
+  grid-template-columns: 2fr max-content 2fr;
   column-gap: 1.5rem;
 }
 
 .qualifikasi__title {
-  font-size: var(--normal-font-size);
+  font-size: var(--normall-font-size);
   font-weight: var(--font-medium);
 }
 
@@ -101,13 +101,25 @@
     grid-template-columns: initial;
   }
 
+  .qualifikasi__title {
+    font-size: var(--tiny-font-size);
+  }
+
+  .qualifkasi__subtitle {
+    font-size: var(--tiny-font-size);
+  }
+
+  .qualifikasi__calender {
+    font-size: var(--tiny-font-size);
+  }
+
   .qualifikasi__button {
     margin: 0 var(--mb-0-75);
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 380px) {
   .qualifikasi__data {
-    gap: 0.5rem !important;
+    gap: 0.2rem !important;
   }
 }
