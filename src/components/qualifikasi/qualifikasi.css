@@ -1,0 +1,113 @@
+.qualifikasi__container {
+  max-width: 768px;
+}
+
+.qualifikasi__tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--mb-2);
+}
+
+.qualifikasi__button {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+  margin: 0 var(--mb-1);
+  cursor: pointer;
+}
+
+.qualifikasi__button:hover {
+  color: var(--title-color-dark);
+}
+
+.qualifikasi__icon {
+  font-size: 1.8rem;
+  margin-right: var(--mb-0-25);
+}
+
+.qualifikasi__active {
+  color: var(--title-color-dark);
+}
+
+.qualifikasi__sections {
+  display: grid;
+  grid-template-columns: 0.5fr;
+  justify-content: center;
+}
+
+.qualifikasi__content {
+  display: none;
+}
+
+.qualifikasi__content-active {
+  display: block;
+}
+
+.qualifikasi__data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.qualifikasi__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.qualifkasi__subtitle {
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.qualifikasi__calender {
+  font-size: var(--small-font-size);
+}
+
+.qualifikasi__rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+}
+
+.qualifikasi__line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--text-color);
+  transform: translate(6px, -7px);
+}
+
+/* ===================BreakPoint===================== */
+
+@media screen and (max-width: 992px) {
+  .qualifikasi__container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .qualifikasi__container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .qualifikasi__container {
+    grid-template-columns: initial;
+  }
+
+  .qualifikasi__button {
+    margin: 0 var(--mb-0-75);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .qualifikasi__data {
+    gap: 0.5rem !important;
+  }
+}
