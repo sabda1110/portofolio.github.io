@@ -67,7 +67,7 @@ const Qualifikasi = () => {
                 </span>
                 <div className="qualifikasi__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2018-2019
+                  2017-2019
                 </div>
               </div>
             </div>
@@ -80,7 +80,7 @@ const Qualifikasi = () => {
                 </span>
                 <div className="qualifikasi__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2021-2022
+                  2015-2017
                 </div>
               </div>
               <div>
@@ -97,11 +97,11 @@ const Qualifikasi = () => {
               <div>
                 <h3 className="qualifikasi__title">Elementali School</h3>
                 <span className="qualifkasi__subtitle">
-                  SD Negeri 6 Pekanbaru
+                  SD Negeri 056 Pekanbaru
                 </span>
                 <div className="qualifikasi__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2018-2019
+                  2010-2015
                 </div>
               </div>
             </div>
