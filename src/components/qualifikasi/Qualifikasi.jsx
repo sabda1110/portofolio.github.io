@@ -61,7 +61,7 @@ const Qualifikasi = () => {
                 <span className="qualifikasi__line"></span>
               </div>
               <div>
-                <h3 className="qualifikasi__title">High Scholl</h3>
+                <h3 className="qualifikasi__title">Senior High Scholl</h3>
                 <span className="qualifkasi__subtitle">
                   SMK Negeri 6 Pekanbaru
                 </span>
@@ -74,7 +74,7 @@ const Qualifikasi = () => {
 
             <div className="qualifikasi__data">
               <div>
-                <h3 className="qualifikasi__title">Junio High School</h3>
+                <h3 className="qualifikasi__title">Junior High School</h3>
                 <span className="qualifkasi__subtitle">
                   SMP Negeri 26 Pekanbaru
                 </span>
@@ -95,7 +95,7 @@ const Qualifikasi = () => {
                 <span className="qualifikasi__line"></span>
               </div>
               <div>
-                <h3 className="qualifikasi__title">Elementali School</h3>
+                <h3 className="qualifikasi__title">Elementary School</h3>
                 <span className="qualifkasi__subtitle">
                   SD Negeri 056 Pekanbaru
                 </span>

@@ -4,6 +4,7 @@ import './header.css';
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
+  const [nav, setNav] = useState('#');
   return (
     <header className="header">
       <nav className="nav container">
@@ -13,22 +14,44 @@ const Header = () => {
         <div className={toggle ? 'nav__menu show__menu' : 'nav__menu'}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a href="#home" className="nav__link">
+              <a
+                href="#home"
+                onClick={() => setNav('#home')}
+                className={`nav__link ${nav === '#home' ? 'action__link' : ''}`}
+              >
                 <i className="uil uil-estate nav__icon"></i> Home
               </a>
             </li>
             <li className="nav__item">
-              <a href="#about" className="nav__link">
+              <a
+                href="#about"
+                onClick={() => setNav('#about')}
+                className={`nav__link ${
+                  nav === '#about' ? 'action__link' : ''
+                }`}
+              >
                 <i className="uil uil-user nav__icon"></i> About
               </a>
             </li>
             <li className="nav__item">
-              <a href="#skills" className="nav__link">
+              <a
+                href="#skills"
+                onClick={() => setNav('#skills')}
+                className={`nav__link ${
+                  nav === '#skills' ? 'action__link' : ''
+                }`}
+              >
                 <i className="uil uil-file-alt nav__icon"></i> Skills
               </a>
             </li>
             <li className="nav__item">
-              <a href="#services" className="nav__link">
+              <a
+                href="#services"
+                onClick={() => setNav('#services')}
+                className={`nav__link ${
+                  nav === '#services' ? 'action__link' : ''
+                }`}
+              >
                 <i className="uil uil-briefcase-alt nav__icon"></i> Services
               </a>
             </li>

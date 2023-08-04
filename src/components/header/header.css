@@ -33,7 +33,7 @@
   font-size: var(--small-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 .nav__icon,
 .nav__close,
@@ -43,7 +43,7 @@
 
 .action__link,
 .nav__link:hover {
-  color: var(--title-color-dark);
+  color: yellow;
 }
 
 /* ===================BreakPoint================= */

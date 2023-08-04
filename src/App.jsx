@@ -5,6 +5,8 @@ import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
 import Qualifikasi from './components/qualifikasi/Qualifikasi';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
+import ScrollUp from './components/scrollUp/ScrollUp';
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
         <Qualifikasi />
         <Contact />
       </main>
+      <Footer />
+      <ScrollUp />
     </>
   );
 };
