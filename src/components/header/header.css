@@ -33,7 +33,7 @@
   font-size: var(--small-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
-  transition: 0.3s ease;
+  transition: 0.3s;
 }
 .nav__icon,
 .nav__close,
