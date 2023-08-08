@@ -114,11 +114,13 @@ const Qualifikasi = () => {
           >
             <div className="qualifikasi__data">
               <div>
-                <h3 className="qualifikasi__title">Magang</h3>
-                <span className="qualifkasi__subtitle">BPS</span>
+                <h3 className="qualifikasi__title">Daily Worker</h3>
+                <span className="qualifkasi__subtitle">
+                  Trans Studio Mini Pekanbaru
+                </span>
                 <div className="qualifikasi__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2021-Present
+                  2021-2023
                 </div>
               </div>
               <div>
@@ -134,23 +136,23 @@ const Qualifikasi = () => {
               </div>
               <div>
                 <h3 className="qualifikasi__title">Magang</h3>
-                <span className="qualifkasi__subtitle">Telkomsel - RAM</span>
+                <span className="qualifkasi__subtitle">Badan Pusat Statik</span>
                 <div className="qualifikasi__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2018-2019
+                  2022
                 </div>
               </div>
             </div>
 
             <div className="qualifikasi__data">
               <div>
-                <h3 className="qualifikasi__title">Daily Worker</h3>
+                <h3 className="qualifikasi__title">Tutoring Teacher</h3>
                 <span className="qualifkasi__subtitle">
-                  Transmart - Pekanbaru
+                  Master Education Pekanbaru
                 </span>
                 <div className="qualifikasi__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2021-2022
+                  2021
                 </div>
               </div>
               <div>

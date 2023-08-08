@@ -16,10 +16,11 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-            dolorum optio earum ex corrupti vel dolor distinctio eius quis
-            beatae doloremque voluptate quia voluptatum quo, explicabo deserunt!
-            Voluptatum, repudiandae amet.
+            Halo, saya Sabda Setiawan! Saya adalah seorang programmer full stack
+            dengan semangat besar untuk menciptakan solusi teknologi yang
+            inovatif dan menarik. Lulusan dari Universitas Islam Riau, saya
+            telah membangun fondasi kuat dalam bidang teknologi informasi dan
+            pemrograman.
           </p>
 
           <a download="" href={CV} className="button button__flex">

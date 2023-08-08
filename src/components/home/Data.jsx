@@ -55,9 +55,9 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Fresh Graduate</h3>
       <p className="home__description">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis
-        ab ratione magnam porro modi provident veniam illum fugit perferendis
-        sit.
+        saya tertarik dengan untuk membuat hal-hal keren dalam komputer, dari
+        tampilan cantik sampai bikin backend yang di balik layar. Ini saya,
+        prgrammer full stack!
       </p>
       <a href="#contact" className="button button__flex">
         Say Hello
